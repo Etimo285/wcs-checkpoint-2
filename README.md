@@ -1,6 +1,13 @@
 # wcs-checkpoint-2
 
-## Launch the apollo server
+## Install packages !
+```
+npm i
+```
+
+## Launch the apollo server :
 ```
 npm start
 ```
+
+## Server is running on port 4000
