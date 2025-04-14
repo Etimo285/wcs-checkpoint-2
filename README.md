@@ -1,6 +1,6 @@
 # wcs-checkpoint-2
 
-## Install packages !
+## Install packages :
 ```
 npm i
 ```
@@ -10,4 +10,4 @@ npm i
 npm start
 ```
 
-## Server is running on port 4000
+### Server is running on port *4000*
