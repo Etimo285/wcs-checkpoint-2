@@ -36,7 +36,7 @@ export class CountryResolver {
         @Arg("emoji") emoji: string,
         @Arg("continentCode") continentCode: string
     ): Promise<Country> {
-        const country = Country.create({ code, name, emoji, continentCode });
+        const country = Country.create({ code: code.toUpperCase(), name, emoji, continentCode: continentCode.toUpperCase() });
         await country.save();
         return country;
     }
