@@ -2,5 +2,5 @@
 
 ## Launch the apollo server
 ```
-  npm start
+npm start
 ```
